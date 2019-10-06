@@ -31,4 +31,6 @@ The contributors of this project are:
 - Javier Solís García (javsolgar@alum.us.es)
 - Alfonso Gonzalez Fernandez (alfgonfer@alum.us.es)
 - Rafael Salas Castizo (rafsalcas1@alum.us.es)
+- Fco. Javier Gonz�lez Lugo (fragonlug@alum.us.es)
+
 
