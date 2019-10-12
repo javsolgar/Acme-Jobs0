@@ -20,6 +20,7 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://www.informatica.us.es"/>
+			<acme:menu-suboption code="master.menu.provider.Alfonso-favourite-link" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.anonymous.Rafa-favourite-link" action="https://www.youtube.com"/>
 		</acme:menu-option>
 
@@ -31,11 +32,13 @@
 
 		<acme:menu-option code="master.menu.provider" access="hasRole('Provider')">
 			<acme:menu-suboption code="master.menu.provider.favourite-link" action="https://www.informatica.us.es"/>
+			<acme:menu-suboption code="master.menu.provider.Alfonso-favourite-link" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.provider.Rafa-favourite-link" action="https://www.youtube.com"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="https://www.informatica.us.es"/>
+			<acme:menu-suboption code="master.menu.provider.Alfonso-favourite-link" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.consumer.Rafa-favourite-link" action="https://www.youtube.com"/>
 		</acme:menu-option>
 	</acme:menu-left>
