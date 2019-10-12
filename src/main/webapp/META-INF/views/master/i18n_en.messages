@@ -32,6 +32,7 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Javi's link
 master.menu.anonymous.Alfonso-favourite-link = Alfonso's link
 master.menu.anonymous.Rafa-favourite-link = Rafa's link
+master.menu.anonymous.FcoJavier-favourite-link = Fco. Javier's link
 
 # master.menu.administrator ###################################################
 
@@ -45,6 +46,7 @@ master.menu.provider = Provider
 master.menu.provider.favourite-link = Javi's link
 master.menu.provider.Alfonso-favourite-link = Alfonso's link
 master.menu.provider.Rafa-favourite-link = Rafa's link
+master.menu.provider.FcoJavier-favourite-link = Fco. Javier's link
 
 # master.menu.consumer ##########################################################
 
@@ -52,6 +54,7 @@ master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Javi's link
 master.menu.consumer.Alfonso-favourite-link = Alfonso's link
 master.menu.consumer.Rafa-favourite-link = Rafa's link
+master.menu.consumer.FcoJavier-favourite-link = Fco. Javier's link
 
 # master.menu.user-account ####################################################
 
@@ -97,3 +100,4 @@ master.license.text = \
 	automatically for a maximum of 31 days, and "language" to store your language \
 	preferences. Additionally, we store an item called "returnStack" in your browser's \
 	local storage to keep track of the document to which some buttons must return.
+

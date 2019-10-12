@@ -32,6 +32,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Link de Javi
 master.menu.anonymous.Alfonso-favourite-link = Link de Alfonso
 master.menu.anonymous.Rafa-favourite-link = Link de Rafa
+master.menu.anonymous.FcoJavier-favourite-link = Link de Fco. Javier
 
 # master.menu.administrator ###################################################
 
@@ -45,6 +46,7 @@ master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Link de Javi
 master.menu.provider.Alfonso-favourite-link = Link de Alfonso
 master.menu.provider.Rafa-favourite-link = Link de Rafa
+master.menu.provider.FcoJavier-favourite-link = Link de Fco. Javier
 
 # master.menu.consumer ##########################################################
 
@@ -52,6 +54,7 @@ master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Link de Javi
 master.menu.consumer.Alfonso-favourite-link = Link de Alfonso
 master.menu.consumer.Rafa-favourite-link = Link de Rafa
+master.menu.consumer.FcoJavier-favourite-link = Link de Fco. Javier
 
 # master.menu.user-account ####################################################
 
@@ -98,3 +101,4 @@ master.license.text = \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
 	
+
