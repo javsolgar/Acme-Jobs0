@@ -43,14 +43,14 @@ master.menu.administrator.shutdown = Parar el sistema
 
 master.menu.provider = Proveedor
 master.menu.provider.favourite-link = Link de Javi
-master.menu.anonymous.Alfonso-favourite-link = Link de Alfonso
+master.menu.provider.Alfonso-favourite-link = Link de Alfonso
 master.menu.provider.Rafa-favourite-link = Link de Rafa
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
 master.menu.consumer.favourite-link = Link de Javi
-master.menu.anonymous.Alfonso-favourite-link = Link de Alfonso
+master.menu.consumer.Alfonso-favourite-link = Link de Alfonso
 master.menu.consumer.Rafa-favourite-link = Link de Rafa
 
 # master.menu.user-account ####################################################

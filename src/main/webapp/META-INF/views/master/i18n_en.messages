@@ -30,7 +30,7 @@ master.menu.sign-out = Sign out
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Javi's link
-master.menu.provider.Alfonso-favourite-link = Alfonso's link
+master.menu.anonymous.Alfonso-favourite-link = Alfonso's link
 master.menu.anonymous.Rafa-favourite-link = Rafa's link
 
 # master.menu.administrator ###################################################
@@ -50,7 +50,7 @@ master.menu.provider.Rafa-favourite-link = Rafa's link
 
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Javi's link
-master.menu.provider.Alfonso-favourite-link = Alfonso's link
+master.menu.consumer.Alfonso-favourite-link = Alfonso's link
 master.menu.consumer.Rafa-favourite-link = Rafa's link
 
 # master.menu.user-account ####################################################
