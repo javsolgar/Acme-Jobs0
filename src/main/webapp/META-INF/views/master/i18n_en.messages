@@ -30,6 +30,7 @@ master.menu.sign-out = Sign out
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Javi's link
+master.menu.anonymous.FcoJavier-favourite-link = Fco. Javier's link
 
 # master.menu.administrator ###################################################
 
@@ -41,11 +42,14 @@ master.menu.administrator.shutdown = Shut down
 
 master.menu.provider = Provider
 master.menu.provider.favourite-link = Javi's link
+master.menu.provider.FcoJavier-favourite-link = Fco. Javier's link
+
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Javi's link
+master.menu.consumer.FcoJavier-favourite-link = Fco. Javier's link
 
 # master.menu.user-account ####################################################
 
