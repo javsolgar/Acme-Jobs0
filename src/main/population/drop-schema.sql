@@ -29,6 +29,8 @@
 
     drop table if exists `gonzalez`;
 
+    drop table if exists `gonzalezbulletin`;
+
     drop table if exists `provider`;
 
     drop table if exists `shout`;

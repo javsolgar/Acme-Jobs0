@@ -60,7 +60,6 @@
 	<property name="moment" value="2019/09/07 00:00"></property>
 	</bean>
 	
-	
 	<!--  SolisBulletin -->
 	<bean id="Solis01" class="acme.entities.bulletins.Solis">
 	<property name="author" value="Mick Wallas"></property>
@@ -82,5 +81,28 @@
 	<property name="text" value="Today is my birthday!!"></property>
 	<property name="moment" value="2019/09/03 09:02"></property>
 	</bean>
+  
+  	<!--  Gonzalez2Bulletin -->
+	
+	<bean id="GonzalezB1" class="acme.entities.shouts.Gonzalezbulletin">
+	<property name="author" value="John Doe"></property>
+	<property name="text" value="I'm happy"></property>
+	<property name="age" value="41"></property>
+	<property name="moment" value="2019/09/09 10:00"></property>
+	</bean>
+	
+	<bean id="GonzalezB2" class="acme.entities.shouts.Gonzalezbulletin">
+	<property name="author" value="Jane Doe"></property>
+	<property name="text" value="I'm the master of my room!"></property>
+	<property name="age" value="30"></property>
+	<property name="moment" value="2019/08/09 15:55"></property>
+	</bean>
+	
+	<bean id="GonzalezB3" class="acme.entities.shouts.Gonzalezbulletin">
+	<property name="author" value="Foo Bar"></property>
+	<property name="text" value="Just turning 20!"></property>
+	<property name="age" value="20"></property>
+	<property name="moment" value="2019/09/07 00:00"></property>
+  </bean>
 
 </beans>

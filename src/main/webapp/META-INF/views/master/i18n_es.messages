@@ -37,6 +37,10 @@ master.menu.anonymous.gonzalez= Crear Boletin de Gonzalez
 master.menu.anonymous.gonzalez.list= Lista de Boletines de Gonzalez
 master.menu.anonymous.solis.create= Crear Boletin Solís
 master.menu.anonymous.solis.list= Lista de Boletines de Solís
+master.menu.anonymous.gonzalez= Gonzalez
+master.menu.anonymous.gonzalez.list= Lista de gritos de Gonzalez
+master.menu.anonymous.gonzalezbulletin= Gonzalez(Alfonso)
+master.menu.anonymous.gonzalezbulletin.list= Lista de boletines de Gonzalez(Alfonso)
 
 # master.menu.administrator ###################################################
 
