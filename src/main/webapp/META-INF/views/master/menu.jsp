@@ -22,10 +22,15 @@
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="https://www.informatica.us.es"/>
 			<acme:menu-suboption code="master.menu.provider.Alfonso-favourite-link" action="https://www.twitch.tv"/>
 			<acme:menu-suboption code="master.menu.anonymous.Rafa-favourite-link" action="https://www.youtube.com"/>
-     		<acme:menu-suboption code="master.menu.anonymous.FcoJavier-favourite-link" action="https://ev.us.es/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_29_1"/>
+     	<acme:menu-suboption code="master.menu.anonymous.FcoJavier-favourite-link" action="https://ev.us.es/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_29_1"/>
 			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
+      <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalez" action="/anonymous/gonzalez/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalez.list" action="/anonymous/gonzalez/list"/>
+
+      
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

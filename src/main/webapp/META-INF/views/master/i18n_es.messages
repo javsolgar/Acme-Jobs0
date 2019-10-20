@@ -49,6 +49,8 @@ master.menu.provider.favourite-link = Link de Javi
 master.menu.provider.Alfonso-favourite-link = Link de Alfonso
 master.menu.provider.Rafa-favourite-link = Link de Rafa
 master.menu.provider.FcoJavier-favourite-link = Link de Fco. Javier
+master.menu.anonymous.shout.list= Lista de shouts
+master.menu.anonymous.shout= Shout!
 
 # master.menu.consumer ##########################################################
 
