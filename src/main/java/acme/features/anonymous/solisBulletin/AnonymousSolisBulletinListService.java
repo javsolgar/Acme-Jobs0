@@ -1,39 +1,39 @@
 
-package acme.features.anonymous.gonzalez;
+package acme.features.anonymous.solisBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.Gonzalez;
+import acme.entities.bulletins.SolisBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousGonzalezListService implements AbstractListService<Anonymous, Gonzalez> {
+public class AnonymousSolisBulletinListService implements AbstractListService<Anonymous, SolisBulletin> {
 
 	//	Internal state ----------------------------------------------------------------------------------
 
 	@Autowired
-	AnonymousGonzalezRepository repository;
+	AnonymousSolisBulletinRepository repository;
 
+	//	AbstractListService<Administrator, SolisBulletin> interface -------------------------------------
 
-	//	AbstractListService<Administrator, Shout> interface ---------------------------------------------
 
 	@Override
-	public boolean authorise(final Request<Gonzalez> request) {
+	public boolean authorise(final Request<SolisBulletin> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public Collection<Gonzalez> findMany(final Request<Gonzalez> request) {
+	public Collection<SolisBulletin> findMany(final Request<SolisBulletin> request) {
 		assert request != null;
 
-		Collection<Gonzalez> result;
+		Collection<SolisBulletin> result;
 
 		result = this.repository.findMany();
 
@@ -41,11 +41,13 @@ public class AnonymousGonzalezListService implements AbstractListService<Anonymo
 	}
 
 	@Override
-	public void unbind(final Request<Gonzalez> request, final Gonzalez entity, final Model model) {
+	public void unbind(final Request<SolisBulletin> request, final SolisBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text", "city", "moment");
+		request.unbind(entity, model, "author", "state", "text", "moment");
+
 	}
+
 }

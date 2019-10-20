@@ -1,0 +1,20 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.solisBulletin.list.label.moment = Moment
+anonymous.solisBulletin.list.label.author = Author
+anonymous.solisBulletin.list.label.state = State
+anonymous.solisBulletin.list.label.text = Text
+
+anonymous.solisBulletin.form.label.author = Author:
+anonymous.solisBulletin.form.button.state = State:
+anonymous.solisBulletin.form.label.text = Text:
+anonymous.solisBulletin.form.button.create = Shout!
+anonymous.solisBulletin.form.button.return = Return
