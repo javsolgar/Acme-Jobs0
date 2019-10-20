@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.gonzalez;
+package acme.features.anonymous.solis;
 
 import javax.annotation.PostConstruct;
 
@@ -7,28 +7,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.Gonzalez;
+import acme.entities.bulletins.Solis;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/gonzalez/")
-public class AnonymousGonzalezController extends AbstractController<Anonymous, Gonzalez> {
+@RequestMapping("/anonymous/solis/")
+public class AnonymousSolisController extends AbstractController<Anonymous, Solis> {
 
-	//	Internal  state ----------------------------------------------------------------------------------------
-
-	@Autowired
-	private AnonymousGonzalezListService	listService;
+	//	Internal state ------------------------------------------------------------------------
 
 	@Autowired
-	private AnonymousGonzalezCreateService	createService;
+	private AnonymousSolisListService	listService;
+
+	@Autowired
+	private AnonymousSolisCreateService	createService;
 
 
-	//	constructor --------------------------------------------------------------------------------------------
+	//	Constructors --------------------------------------------------------------------------
 
 	@PostConstruct
-	private void inicialise() {
+	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}

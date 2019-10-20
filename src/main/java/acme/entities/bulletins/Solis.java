@@ -1,5 +1,5 @@
 
-package acme.entities.shouts;
+package acme.entities.bulletins;
 
 import java.util.Date;
 
@@ -16,22 +16,22 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Gonzalez extends DomainEntity {
+public class Solis extends DomainEntity {
 
-	// Serialisation identifier --------------------------------------------------------------------------------
+	//Serialization identifier --------------------------------------------------------------------------------------
 
 	private static final long	serialVersionUID	= 1L;
 
-	// Attributes ----------------------------------------------------------------------------------------------
+	//	Atributes ---------------------------------------------------------------------------------------------------
 
 	@NotBlank
 	private String				author;
 
 	@NotBlank
-	private String				text;
+	private String				state;
 
 	@NotBlank
-	private String				city;
+	private String				text;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	@Past

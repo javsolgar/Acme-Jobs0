@@ -29,7 +29,10 @@
       <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalez" action="/anonymous/gonzalez/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalez.list" action="/anonymous/gonzalez/list"/>
-
+		<acme:menu-separator/>
+		<acme:menu-suboption code="master.menu.anonymous.solis.create" action="/anonymous/solis/create"/>
+		<acme:menu-suboption code="master.menu.anonymous.solis.list" action="/anonymous/solis/list"/>
+		
       
 		</acme:menu-option>
 
