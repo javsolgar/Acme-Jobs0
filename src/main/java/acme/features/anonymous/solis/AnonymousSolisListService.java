@@ -1,39 +1,39 @@
 
-package acme.features.anonymous.gonzalez;
+package acme.features.anonymous.solis;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.Gonzalez;
+import acme.entities.bulletins.Solis;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousGonzalezListService implements AbstractListService<Anonymous, Gonzalez> {
+public class AnonymousSolisListService implements AbstractListService<Anonymous, Solis> {
 
 	//	Internal state ----------------------------------------------------------------------------------
 
 	@Autowired
-	AnonymousGonzalezRepository repository;
+	AnonymousSolisRepository repository;
 
+	//	AbstractListService<Administrator, Solis> interface -------------------------------------
 
-	//	AbstractListService<Administrator, Shout> interface ---------------------------------------------
 
 	@Override
-	public boolean authorise(final Request<Gonzalez> request) {
+	public boolean authorise(final Request<Solis> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public Collection<Gonzalez> findMany(final Request<Gonzalez> request) {
+	public Collection<Solis> findMany(final Request<Solis> request) {
 		assert request != null;
 
-		Collection<Gonzalez> result;
+		Collection<Solis> result;
 
 		result = this.repository.findMany();
 
@@ -41,11 +41,13 @@ public class AnonymousGonzalezListService implements AbstractListService<Anonymo
 	}
 
 	@Override
-	public void unbind(final Request<Gonzalez> request, final Gonzalez entity, final Model model) {
+	public void unbind(final Request<Solis> request, final Solis entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "author", "text", "city", "moment");
+		request.unbind(entity, model, "author", "state", "text", "moment");
+
 	}
+
 }
