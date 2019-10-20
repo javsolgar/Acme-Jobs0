@@ -33,7 +33,7 @@
 
     drop table if exists `shout`;
 
-    drop table if exists `solis_bulletin`;
+    drop table if exists `solis`;
 
     drop table if exists `user_account`;
 

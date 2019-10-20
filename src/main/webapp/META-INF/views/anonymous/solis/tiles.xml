@@ -18,12 +18,12 @@
 	
 <tiles-definitions>
 
-	<definition name="anonymous/SolisBulletin/form" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/SolisBulletin/form.jsp"/>
+	<definition name="anonymous/solis/form" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/solis/form.jsp"/>
 	</definition>
 
-	<definition name="anonymous/SolisBulletin/list" extends="master">
-		<put-attribute name="body" type="template" value="../anonymous/SolisBulletin/list.jsp"/>
+	<definition name="anonymous/solis/list" extends="master">
+		<put-attribute name="body" type="template" value="../anonymous/solis/list.jsp"/>
 	</definition>
 
 </tiles-definitions>

@@ -16,11 +16,11 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.solisBulletin.form.author" path="author"/>
-	<acme:form-textbox code="anonymous.solisBulletin.form.state" path="state"/>
-	<acme:form-textarea code="anonymous.solisBulletin.form.text" path="text"/>
+	<acme:form-textbox code="anonymous.solis.form.label.author" path="author"/>
+	<acme:form-textbox code="anonymous.solis.form.label.state" path="state"/>
+	<acme:form-textarea code="anonymous.solis.form.label.text" path="text"/>
 	
 	
-	<acme:form-submit code="anonymous.solisBulletin.form.button.create" action="/anonymous/solisBulletin/create"/>
-	<acme:form-return code="anonymous.solisBulletin.form.button.return"/>
+	<acme:form-submit code="anonymous.solis.form.button.create" action="/anonymous/solis/create"/>
+	<acme:form-return code="anonymous.solis.form.button.return"/>
 </acme:form>

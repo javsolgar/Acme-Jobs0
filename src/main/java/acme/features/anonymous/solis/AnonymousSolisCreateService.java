@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.solisBulletin;
+package acme.features.anonymous.solis;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.SolisBulletin;
+import acme.entities.bulletins.Solis;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,30 +14,30 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousSolisBulletinCreateService implements AbstractCreateService<Anonymous, SolisBulletin> {
+public class AnonymousSolisCreateService implements AbstractCreateService<Anonymous, Solis> {
 
 	// Internal Sate ---------------------------------------------------------------------------------------
 
 	@Autowired
-	AnonymousSolisBulletinRepository repository;
+	AnonymousSolisRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<SolisBulletin> request) {
+	public boolean authorise(final Request<Solis> request) {
 		assert request != null;
-		return false;
+		return true;
 	}
 
 	@Override
-	public SolisBulletin instantiate(final Request<SolisBulletin> request) {
+	public Solis instantiate(final Request<Solis> request) {
 		assert request != null;
 
-		SolisBulletin result;
+		Solis result;
 		Date moment;
 
 		moment = new Date(System.currentTimeMillis() - 1);
 
-		result = new SolisBulletin();
+		result = new Solis();
 		result.setAuthor("Mick Wallas");
 		result.setState("Nervous");
 		result.setText("I'm gonna have my last exam of ADDA");
@@ -47,7 +47,7 @@ public class AnonymousSolisBulletinCreateService implements AbstractCreateServic
 	}
 
 	@Override
-	public void unbind(final Request<SolisBulletin> request, final SolisBulletin entity, final Model model) {
+	public void unbind(final Request<Solis> request, final Solis entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -55,7 +55,7 @@ public class AnonymousSolisBulletinCreateService implements AbstractCreateServic
 	}
 
 	@Override
-	public void bind(final Request<SolisBulletin> request, final SolisBulletin entity, final Errors errors) {
+	public void bind(final Request<Solis> request, final Solis entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -64,14 +64,14 @@ public class AnonymousSolisBulletinCreateService implements AbstractCreateServic
 	}
 
 	@Override
-	public void validate(final Request<SolisBulletin> request, final SolisBulletin entity, final Errors errors) {
+	public void validate(final Request<Solis> request, final Solis entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
 	}
 
 	@Override
-	public void create(final Request<SolisBulletin> request, final SolisBulletin entity) {
+	public void create(final Request<Solis> request, final Solis entity) {
 		assert request != null;
 		assert entity != null;
 

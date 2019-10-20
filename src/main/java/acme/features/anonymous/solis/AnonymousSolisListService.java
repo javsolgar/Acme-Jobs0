@@ -1,39 +1,39 @@
 
-package acme.features.anonymous.solisBulletin;
+package acme.features.anonymous.solis;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.SolisBulletin;
+import acme.entities.bulletins.Solis;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousSolisBulletinListService implements AbstractListService<Anonymous, SolisBulletin> {
+public class AnonymousSolisListService implements AbstractListService<Anonymous, Solis> {
 
 	//	Internal state ----------------------------------------------------------------------------------
 
 	@Autowired
-	AnonymousSolisBulletinRepository repository;
+	AnonymousSolisRepository repository;
 
-	//	AbstractListService<Administrator, SolisBulletin> interface -------------------------------------
+	//	AbstractListService<Administrator, Solis> interface -------------------------------------
 
 
 	@Override
-	public boolean authorise(final Request<SolisBulletin> request) {
+	public boolean authorise(final Request<Solis> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public Collection<SolisBulletin> findMany(final Request<SolisBulletin> request) {
+	public Collection<Solis> findMany(final Request<Solis> request) {
 		assert request != null;
 
-		Collection<SolisBulletin> result;
+		Collection<Solis> result;
 
 		result = this.repository.findMany();
 
@@ -41,7 +41,7 @@ public class AnonymousSolisBulletinListService implements AbstractListService<An
 	}
 
 	@Override
-	public void unbind(final Request<SolisBulletin> request, final SolisBulletin entity, final Model model) {
+	public void unbind(final Request<Solis> request, final Solis entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;

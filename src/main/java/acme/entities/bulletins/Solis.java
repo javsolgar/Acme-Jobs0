@@ -16,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class SolisBulletin extends DomainEntity {
+public class Solis extends DomainEntity {
 
 	//Serialization identifier --------------------------------------------------------------------------------------
 

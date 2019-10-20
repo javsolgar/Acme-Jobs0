@@ -16,8 +16,8 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.solisBulletin.list.label.moment" path="moment" width="20%"/>
-	<acme:list-column code="anonymous.solisBulletin.list.label.author" path="author" width="20%"/>
-	<acme:list-column code="anonymous.solisBulletin.list.label.state" path="state" width="20%"/>	
-	<acme:list-column code="anonymous.solisBulletin.list.label.text" path="text" width="40%"/>	
+	<acme:list-column code="anonymous.solis.list.label.moment" path="moment" width="20%"/>
+	<acme:list-column code="anonymous.solis.list.label.author" path="author" width="20%"/>
+	<acme:list-column code="anonymous.solis.list.label.state" path="state" width="20%"/>	
+	<acme:list-column code="anonymous.solis.list.label.text" path="text" width="40%"/>	
 </acme:list>

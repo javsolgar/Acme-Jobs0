@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.solisBulletin;
+package acme.features.anonymous.solis;
 
 import javax.annotation.PostConstruct;
 
@@ -7,22 +7,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.SolisBulletin;
+import acme.entities.bulletins.Solis;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/SolisBulletin/")
-public class AnonymousSolisBulletinController extends AbstractController<Anonymous, SolisBulletin> {
+@RequestMapping("/anonymous/solis/")
+public class AnonymousSolisController extends AbstractController<Anonymous, Solis> {
 
 	//	Internal state ------------------------------------------------------------------------
 
 	@Autowired
-	private AnonymousSolisBulletinListService	listService;
+	private AnonymousSolisListService	listService;
 
 	@Autowired
-	private AnonymousSolisBulletinCreateService	createService;
+	private AnonymousSolisCreateService	createService;
 
 
 	//	Constructors --------------------------------------------------------------------------

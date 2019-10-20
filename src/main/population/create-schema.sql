@@ -57,7 +57,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `solis_bulletin` (
+    create table `solis` (
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),

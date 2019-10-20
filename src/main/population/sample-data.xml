@@ -62,21 +62,21 @@
 	
 	
 	<!--  SolisBulletin -->
-	<bean id="SolisBulletin01" class="acme.entities.bulletins.SolisBulletin">
+	<bean id="Solis01" class="acme.entities.bulletins.Solis">
 	<property name="author" value="Mick Wallas"></property>
 	<property name="state" value="Nervous"></property>
 	<property name="text" value="I'm gonna have my last exam of ADDA"></property>
 	<property name="moment" value="2019/04/02 13:00"></property>
 	</bean>
 	
-	<bean id="SolisBulletin02" class="acme.entities.bulletins.SolisBulletin">
+	<bean id="Solis02" class="acme.entities.bulletins.Solis">
 	<property name="author" value="Jack Butcher"></property>
 	<property name="state" value="Angry"></property>
 	<property name="text" value="Someone have just stolen my wallet "></property>
 	<property name="moment" value="2019/05/06 17:00"></property>
 	</bean>
 	
-	<bean id="SolisBulletin03" class="acme.entities.bulletins.SolisBulletin">
+	<bean id="Solis03" class="acme.entities.bulletins.Solis">
 	<property name="author" value="Javier Solís García"></property>
 	<property name="state" value="Happy"></property>
 	<property name="text" value="Today is my birthday!!"></property>
