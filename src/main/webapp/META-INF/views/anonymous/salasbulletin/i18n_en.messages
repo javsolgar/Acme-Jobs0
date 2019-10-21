@@ -1,0 +1,9 @@
+anonymous.salasbulletin.list.label.dni = ID
+anonymous.salasbulletin.list.label.name = Name
+anonymous.salasbulletin.list.label.surname = Surname
+
+anonymous.salasbulletin.form.label.name = Name:
+anonymous.salasbulletin.form.label.surname = Surname:
+anonymous.salasbulletin.form.label.dni = ID:
+anonymous.salasbulletin.form.button.create = Create
+anonymous.salasbulletin.form.button.return = Return
