@@ -35,9 +35,6 @@
       	  <acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalezbulletin" action="/anonymous/gonzalezbulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.gonzalezbulletin.list" action="/anonymous/gonzalezbulletin/list"/>
-		<acme:menu-separator/>
-			<acme:menu-suboption code="master.menu.anonymous.salasbulletin" action="/anonymous/salasbulletin/create"/>
-			<acme:menu-suboption code="master.menu.anonymous.salasbulletin.list" action="/anonymous/salasbulletin/list"/>
 
       
 		</acme:menu-option>
