@@ -1,0 +1,9 @@
+anonymous.salasbulletin.list.label.dni = DNI
+anonymous.salasbulletin.list.label.name = Nombre
+anonymous.salasbulletin.list.label.surname = Apellido
+
+anonymous.salasbulletin.form.label.name = Nombre:
+anonymous.salasbulletin.form.label.surname = Apellido:
+anonymous.salasbulletin.form.label.dni = DNI:
+anonymous.salasbulletin.form.button.create = Crear
+anonymous.salasbulletin.form.button.return = Volver 
