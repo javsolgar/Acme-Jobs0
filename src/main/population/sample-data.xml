@@ -104,5 +104,26 @@
 	<property name="age" value="20"></property>
 	<property name="moment" value="2019/09/07 00:00"></property>
   </bean>
+  
+    <!--  Salasbulletin -->
+
+	<bean id="salasBulletin01" class="acme.entities.bulletins.Salasbulletin">
+	<property name="name" value="Rafael"></property>
+	<property name="surname" value="Salas"></property>
+	<property name="dni" value="29530695R"></property>
+	</bean>
+
+	<bean id="salasbulletin02" class="acme.entities.bulletins.Salasbulletin">
+	<property name="name" value="Ramon"></property>
+	<property name="surname" value="Guitierrez"></property>
+	<property name="dni" value="49530695R"></property>
+	</bean>
+
+	<bean id="salasbulletin03" class="acme.entities.bulletins.Salasbulletin">
+	<property name="name" value="Jose"></property>
+	<property name="surname" value="Salas"></property>
+	<property name="dni" value="29530395R"></property>
+	</bean>
+  
 
 </beans>
