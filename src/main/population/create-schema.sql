@@ -58,15 +58,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `salasbulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `dni` varchar(255),
-        `name` varchar(255),
-        `surname` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `shout` (
        `id` integer not null,
         `version` integer not null,
