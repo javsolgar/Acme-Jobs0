@@ -1,0 +1,9 @@
+anonymous.gonzalezbulletin.list.label.dni = ID
+anonymous.gonzalezbulletin.list.label.name = Name
+anonymous.gonzalezbulletin.list.label.surname = Surname
+
+anonymous.gonzalezbulletin.form.label.name = Name:
+anonymous.gonzalezbulletin.form.label.surname = Surname:
+anonymous.gonzalezbulletin.form.label.dni = ID:
+anonymous.gonzalezbulletin.form.button.create = Create
+anonymous.gonzalezbulletin.form.button.return = Return

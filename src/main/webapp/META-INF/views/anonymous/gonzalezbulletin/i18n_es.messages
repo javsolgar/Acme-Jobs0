@@ -1,0 +1,9 @@
+anonymous.gonzalezbulletin.list.label.dni = DNI
+anonymous.gonzalezbulletin.list.label.name = Nombre
+anonymous.gonzalezbulletin.list.label.surname = Apellido
+
+anonymous.gonzalezbulletin.form.label.name = Nombre:
+anonymous.gonzalezbulletin.form.label.surname = Apellido:
+anonymous.gonzalezbulletin.form.label.dni = DNI:
+anonymous.gonzalezbulletin.form.button.create = Crear
+anonymous.gonzalezbulletin.form.button.return = Volver 
