@@ -43,7 +43,7 @@ master.menu.anonymous.gonzalez= Gonzalez, Shout!
 master.menu.anonymous.gonzalez.list= List Gonzalez's Shouts
 master.menu.anonymous.gonzalezbulletin= Gonzalez(Alfonso) Bulletin!
 master.menu.anonymous.gonzalezbulletin.list= List Gonzalez(Alfonso)'s Bulletins
-master.menu.anonymous.salasbulletin = Salas Bulletin!
+master.menu.anonymous.salasbulletin = Create Salas Bulletin!
 master.menu.anonymous.salasbulletin.list = List Salas´s Bulletins
 
 # master.menu.administrator ###################################################
