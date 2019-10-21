@@ -1,9 +1,10 @@
-anonymous.gonzalezbulletin.list.label.dni = ID
-anonymous.gonzalezbulletin.list.label.name = Name
-anonymous.gonzalezbulletin.list.label.surname = Surname
+anonymous.shout.list.label.moment = Moment
+anonymous.shout.list.label.author = Author
+anonymous.shout.list.label.text = Text
+anonymous.shout.list.label.age = Age
 
-anonymous.gonzalezbulletin.form.label.name = Name:
-anonymous.gonzalezbulletin.form.label.surname = Surname:
-anonymous.gonzalezbulletin.form.label.dni = ID:
-anonymous.gonzalezbulletin.form.button.create = Create
-anonymous.gonzalezbulletin.form.button.return = Return
+anonymous.shout.form.label.author = Author:
+anonymous.shout.form.label.text = Text:
+anonymous.shout.form.label.age = Age:
+anonymous.shout.form.button.create = Shout!
+anonymous.shout.form.button.return = Return

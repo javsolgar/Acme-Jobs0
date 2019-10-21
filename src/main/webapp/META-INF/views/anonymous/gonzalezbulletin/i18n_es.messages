@@ -1,9 +1,10 @@
-anonymous.gonzalezbulletin.list.label.dni = DNI
-anonymous.gonzalezbulletin.list.label.name = Nombre
-anonymous.gonzalezbulletin.list.label.surname = Apellido
+anonymous.shout.list.label.moment = Momento
+anonymous.shout.list.label.author = Autor
+anonymous.shout.list.label.text = Texto
+anonymous.shout.list.label.age = Edad
 
-anonymous.gonzalezbulletin.form.label.name = Nombre:
-anonymous.gonzalezbulletin.form.label.surname = Apellido:
-anonymous.gonzalezbulletin.form.label.dni = DNI:
-anonymous.gonzalezbulletin.form.button.create = Crear
-anonymous.gonzalezbulletin.form.button.return = Volver 
+anonymous.shout.form.label.author = Autor:
+anonymous.shout.form.label.text = Texto:
+anonymous.shout.form.label.age = Edad:
+anonymous.shout.form.button.create = Gritar
+anonymous.shout.form.button.return = Volver
