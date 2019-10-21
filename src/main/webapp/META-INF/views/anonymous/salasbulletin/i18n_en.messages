@@ -1,0 +1,19 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.salasbulletin.list.label.dni = ID
+anonymous.salasbulletin.list.label.name = Name
+anonymous.salasbulletin.list.label.surname = Surname
+
+anonymous.salasbulletin.form.label.name = Name:
+anonymous.salasbulletin.form.label.surname = Surname:
+anonymous.salasbulletin.form.label.dni = ID:
+anonymous.salasbulletin.form.button.create = Create
+anonymous.salasbulletin.form.button.return = Return 

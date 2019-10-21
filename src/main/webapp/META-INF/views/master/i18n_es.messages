@@ -41,6 +41,8 @@ master.menu.anonymous.gonzalez= Gonzalez
 master.menu.anonymous.gonzalez.list= Lista de gritos de Gonzalez
 master.menu.anonymous.gonzalezbulletin= Gonzalez(Alfonso)
 master.menu.anonymous.gonzalezbulletin.list= Lista de boletines de Gonzalez(Alfonso)
+master.menu.anonymous.salasbulletin = Salas Bulletin!
+master.menu.anonymous.salasbulletin.list = List Salas´s Bulletins
 
 # master.menu.administrator ###################################################
 
